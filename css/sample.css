@@ -262,17 +262,20 @@ footer {
     padding: 16px 0;
   }
 }
+
 footer .foot_address {
   font-size: 16px;
   font-size: 1.6rem;
   padding-top: 10px;
 }
+
 footer .copy {
   text-align: center;
   font-size: 11px;
   font-size: 1.1rem;
   color: #b2e1ea;
 }
+
 @media (min-width: 550px) {
   footer {
     padding-top: 30px;
@@ -304,7 +307,7 @@ footer .copy {
   }
 }
 @media (min-width: 550px) {
-  footer .foot_navi a {
+  footer .foot_navi li a {
     color: white;
     padding-left: 10px;
     text-decoration: none;
@@ -354,25 +357,26 @@ h1 {
 @media screen and (-webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx) 
 {
   #sub_cover {
-    background-image: url("../images/news/sub_cover@2x.jpg")
+    background-image: url("../images/news/sub_cover@2x.jpg");
   }
 }
 
 
 
 #contents{
-  padding-top:20px
+  padding-top:20px;
 }
 
 @media (min-width: 550px){
 #contents{
-  padding-top:35px;padding-bottom:70px
+  padding-top:35px;padding-bottom:70px;
   }
 }
 
 #contents #main h2{
   color: #42b9d0;
-  border-bottom:3px solid #42b9d0;
+  border-bottom:3px; 
+  border-bottom-color: solid #42b9d0;
   font-size: 1.5rem;
   font-weight: bold;
   padding-bottom: 15px;
@@ -386,6 +390,7 @@ h1 {
 }
 }
 
+ 
 #contents #main span{
   color: #42b9d0;
   font-weight: bold;
@@ -406,20 +411,15 @@ h1 {
   font-size: 1.5rem;
 }
 
+
 @media (min-width: 550px){
   #contents #main li {
   list-style:none;
-  padding-bottom:5px
+  padding-bottom:5px;
 }
 
 #contents #sidebar{
-  padding-bottom: 20px
-}
-
-
-@media (max-width: 550px){
-#contents #sidebar{
-  display:none;
+  padding-bottom: 20px;
 }
 }
 
@@ -463,26 +463,33 @@ h1 {
   color:#42b9d0;
 }
 
+@media (max-width: 550px){
+  #contents #sidebar .pc_sidemenu {
+    display: none;
+  }
+}
+
+
+
+
 /*company */
 #contents #main h2.company_title{
   margin-bottom: 0px;
 }
 
-
-
- #contents #main th{
+#contents #main th{
   padding-right: 20px;
-}
-
-  #contents #main th{
-    padding: 20px 0;
-    color: #626262;
+  color: #626262;
     font-size: 1.4rem;
-  
   }
   
+  
   #contents #main td{
-  padding: 20px 0;
+  padding: 20px 0 20px 0;
   color: #626262;
   font-size: 1.4rem;
+
 }
+
+
+
